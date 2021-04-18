@@ -1,0 +1,60 @@
+{
+    "minigames": [
+        {
+            "minigame": "blockparty",
+            "code": 25
+        },
+        {
+            "minigame": "tntrun",
+            "code": 1
+        },
+        {
+            "minigame": "escondeesconde",
+            "code": 7
+        },
+        {
+            "minigame": "paintball",
+            "code": 11
+        },
+        {
+            "minigame": "oneinthechamber",
+            "code": 3
+        },
+        {
+            "minigame": "teamdeathmatch",
+            "code": 10
+        },
+        {
+            "minigame": "defenders",
+            "code": 14
+        },
+        {
+            "minigame": "duobuildmasters",
+            "code": 9
+        },
+        {
+            "minigame": "murder",
+            "code": 13
+        },
+        {
+            "minigame": "skywars",
+            "code": 2
+        },
+        {
+            "minigame": "capturetheflag",
+            "code": 6
+        },
+        {
+            "minigame": "buildmasters",
+            "code": 4
+        },
+        {
+            "minigame": "duoskywars",
+            "code": 8
+        },
+        {
+            "minigame": "teamskywars",
+            "code": 5
+        }
+    ]
+}
