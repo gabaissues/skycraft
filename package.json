@@ -1,6 +1,6 @@
 {
   "name": "skycraft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -15,7 +15,10 @@
   "scripts": {
     "dev": "nodemon index.js"
   },
-  "keywords": ["skycraft", "minecraft"],
+  "keywords": [
+    "skycraft",
+    "minecraft"
+  ],
   "author": "Gabriel, gb <ogabrielskj@gmail.com>",
   "description": "wrapper do site skycraft"
 }

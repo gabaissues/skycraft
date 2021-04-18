@@ -4,13 +4,13 @@
 
 ### Instalação
 
-```js
+```shell
 
-    npm i skycraft --save 
+npm i skycraft --save 
 
-    /* Ou */
+Ou
 
-    yarn add skycraft
+yarn add skycraft
 
 ```
 
