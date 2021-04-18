@@ -1,10 +1,9 @@
 const skycraft = require('skycraft')
 
-
 //True = Mostra o processo do browser
 //False = Esconde o processo do browser
 
-skycraft.start({ show: true }).then(async (response) => {
+skycraft.start({ show: false }).then(async (response) => {
 
     let result = await skycraft.searchPage({ response: response, minigame: 'blockparty', page: 1, temporada: 'mensal' })
     console.log(result)

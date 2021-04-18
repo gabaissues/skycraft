@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^8.0.0"
+    "puppeteer": "^8.0.0",
+    "skycraft": "^1.0.0"
   },
   "directories": {
     "lib": "lib",
@@ -12,9 +13,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
+  "keywords": ["skycraft", "minecraft"],
   "author": "Gabriel, gb <ogabrielskj@gmail.com>",
   "description": "wrapper do site skycraft"
 }
