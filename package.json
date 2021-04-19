@@ -4,14 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^8.0.0",
-    "skycraft": "^1.0.0"
+    "chalk": "^4.1.0",
+    "puppeteer": "^8.0.0"
   },
   "directories": {
     "lib": "lib",
     "test": "test"
   },
-  "devDependencies": {},
   "scripts": {
     "dev": "nodemon index.js"
   },
