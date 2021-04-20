@@ -1,60 +1,84 @@
 {
-    "minigames": [
-        {
-            "minigame": "blockparty",
-            "code": 25
-        },
-        {
-            "minigame": "tntrun",
-            "code": 1
-        },
-        {
-            "minigame": "escondeesconde",
-            "code": 7
-        },
-        {
-            "minigame": "paintball",
-            "code": 11
-        },
-        {
-            "minigame": "oneinthechamber",
-            "code": 3
-        },
-        {
-            "minigame": "teamdeathmatch",
-            "code": 10
-        },
-        {
-            "minigame": "defenders",
-            "code": 14
-        },
-        {
-            "minigame": "duobuildmasters",
-            "code": 9
-        },
-        {
-            "minigame": "murder",
-            "code": 13
-        },
-        {
-            "minigame": "skywars",
-            "code": 2
-        },
-        {
-            "minigame": "capturetheflag",
-            "code": 6
-        },
-        {
-            "minigame": "buildmasters",
-            "code": 4
-        },
-        {
-            "minigame": "duoskywars",
-            "code": 8
-        },
-        {
-            "minigame": "teamskywars",
-            "code": 5
-        }
-    ]
+	"minigames": [
+		{
+			"minigame": "tntrun",
+			"code": 1
+		},
+		{
+			"minigame": "skywars",
+			"code": 2
+		},
+		{
+			"minigame": "oneinthechamber",
+			"code": 3
+		},
+		{
+			"minigame": "buildmasters",
+			"code": 4
+		},
+		{
+			"minigame": "teamskywars",
+			"code": 5
+		},
+		{
+			"minigame": "capturetheflag",
+			"code": 6
+		},
+		{
+			"minigame": "escondeesconde",
+			"code": 7
+		},
+		{
+			"minigame": "duoskywars",
+			"code": 8
+		},
+		{
+			"minigame": "duobuildmasters",
+			"code": 9
+		},
+		{
+			"minigame": "teamdeathmatch",
+			"code": 10
+		},
+		{
+			"minigame": "paintball",
+			"code": 11
+		},
+		{
+			"minigame": "eggwars",
+			"code": 12
+		},
+		{
+			"minigame": "murder",
+			"code": 13
+		},
+		{
+			"minigame": "defenders",
+			"code": 14
+		},
+		{
+			"minigame": "duoeggwars",
+			"code": 15
+		},
+		{
+			"minigame": "soloeggwars",
+			"code": 16
+		},
+		{
+			"minigame": "bedwars",
+			"code": 21
+		},
+		{
+			"minigame": "solobedwars",
+			"code": 22
+		},
+		{
+			"minigame": "duobedwars",
+			"code": 23
+		},
+		{
+			"minigame": "blockparty",
+			"code": 25
+		}
+	]
 }
