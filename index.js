@@ -1,4 +1,4 @@
-const { searchPage, start } = require('./lib/api.js')
+const { searchPage, start, auth, getProfile, changeProfile } = require('./lib/api.js')
 
 /**
  
@@ -10,5 +10,8 @@ const { searchPage, start } = require('./lib/api.js')
 
 module.exports = {
     start: start,
-    searchPage: searchPage
+    searchPage: searchPage,
+    auth: auth,
+    getProfile: getProfile,
+    changeProfile: changeProfile
 }
