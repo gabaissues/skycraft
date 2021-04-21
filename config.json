@@ -1,60 +1,212 @@
 {
+    "profileInputs": {
+        "areas": [
+            {
+                "value": "todos",
+                "id": "t"
+            },
+            {
+                "value": "minigames",
+                "id": "mg"
+            },
+            {
+                "value": "fullpvp",
+                "id": "fp"
+            },
+            {
+                "value": "skyblock",
+                "id": "sb"
+            },
+            {
+                "value": "buildteam",
+                "id": "bt"
+            },
+            {
+                "value": "design",
+                "id": "ds"
+            },
+            {
+                "value": "jornal",
+                "id": "jn"
+            },
+            {
+                "value": "locução",
+                "id": "lc"
+            },
+            {
+                "value": "mídia",
+                "id": "md"
+            }
+        ],
+        "sexo": [
+            {
+                "value": "homem",
+                "id": "m"
+            },
+            {
+                "value": "mulher",
+                "id": "f"
+            },
+            {
+                "value": "não-binário",
+                "id": "nb"
+            },
+            {
+                "value": "outro",
+                "id": "o"
+            },
+            {
+                "value": "não informado",
+                "id": "u"
+            }
+        ],
+        "config": [
+            {
+                "value": "site",
+                "id": "field_3"
+            },
+            {
+                "value": "skype",
+                "id": "field_10"
+            },
+            {
+                "value": "facebook",
+                "id": "field_15"
+            },
+            {
+                "value": "twitter",
+                "id": "field_16"
+            },
+            {
+                "value": "instagram",
+                "id": "field_17"
+            },
+            {
+                "value": "discord",
+                "id": "field_18"
+            },
+            {
+                "value": "steam",
+                "id": "field_19"
+            },
+            {
+                "value": "twitch",
+                "id": "field_20"
+            },
+            {
+                "value": "devianart",
+                "id": "field_21"
+            },
+            {
+                "value": "localização",
+                "id": "field_6"
+            },
+            {
+                "value": "interesses",
+                "id": "field_7"
+            }
+        ]
+    },
     "minigames": [
-        {
-            "minigame": "blockparty",
-            "code": 25
-        },
-        {
-            "minigame": "tntrun",
-            "code": 1
-        },
-        {
-            "minigame": "escondeesconde",
-            "code": 7
-        },
-        {
-            "minigame": "paintball",
-            "code": 11
-        },
-        {
-            "minigame": "oneinthechamber",
-            "code": 3
-        },
-        {
-            "minigame": "teamdeathmatch",
-            "code": 10
-        },
-        {
-            "minigame": "defenders",
-            "code": 14
-        },
-        {
-            "minigame": "duobuildmasters",
-            "code": 9
-        },
-        {
-            "minigame": "murder",
-            "code": 13
-        },
-        {
-            "minigame": "skywars",
-            "code": 2
-        },
-        {
-            "minigame": "capturetheflag",
-            "code": 6
-        },
-        {
-            "minigame": "buildmasters",
-            "code": 4
-        },
-        {
-            "minigame": "duoskywars",
-            "code": 8
-        },
-        {
-            "minigame": "teamskywars",
-            "code": 5
-        }
-    ]
+		{
+			"minigame": "tntrun",
+			"code": 1,
+			"icon": "https://i.imgur.com/nSHsklU.png"
+		},
+		{
+			"minigame": "skywars",
+			"code": 2,
+			"icon": "https://i.imgur.com/YMv4j7K.png"
+		},
+		{
+			"minigame": "oneinthechamber",
+			"code": 3,
+			"icon": "https://i.imgur.com/yNTaoQW.png"
+		},
+		{
+			"minigame": "buildmasters",
+			"code": 4,
+			"icon": "https://i.imgur.com/848ClUe.png"
+		},
+		{
+			"minigame": "teamskywars",
+			"code": 5,
+			"icon": "https://i.imgur.com/YMv4j7K.png"
+		},
+		{
+			"minigame": "capturetheflag",
+			"code": 6,
+			"icon": "https://i.imgur.com/SvJ13S4.png"
+		},
+		{
+			"minigame": "escondeesconde",
+			"code": 7,
+			"icon": "https://i.imgur.com/NWMbj02.png"
+		},
+		{
+			"minigame": "duoskywars",
+			"code": 8,
+			"icon": "https://i.imgur.com/YMv4j7K.png"
+		},
+		{
+			"minigame": "duobuildmasters",
+			"code": 9,
+			"icon": "https://i.imgur.com/848ClUe.png"
+		},
+		{
+			"minigame": "teamdeathmatch",
+			"code": 10,
+			"icon": "https://i.imgur.com/YbUqMBE.png"
+		},
+		{
+			"minigame": "paintball",
+			"code": 11,
+			"icon": "https://i.imgur.com/DdPnN2J.png"
+		},
+		{
+			"minigame": "eggwars",
+			"code": 12,
+			"icon": "https://i.imgur.com/u2wBttQ.png"
+		},
+		{
+			"minigame": "murder",
+			"code": 13,
+			"icon": "https://i.imgur.com/dO7aLBg.png"
+		},
+		{
+			"minigame": "defenders",
+			"code": 14,
+			"icon": "https://i.imgur.com/4Aghltv.png"
+		},
+		{
+			"minigame": "duoeggwars",
+			"code": 15,
+			"icon": "https://i.imgur.com/u2wBttQ.png"
+		},
+		{
+			"minigame": "soloeggwars",
+			"code": 16,
+			"icon": "https://i.imgur.com/u2wBttQ.png"
+		},
+		{
+			"minigame": "bedwars",
+			"code": 21,
+			"icon": "https://i.imgur.com/53fIEW4.png"
+		},
+		{
+			"minigame": "solobedwars",
+			"code": 22,
+			"icon": "https://i.imgur.com/53fIEW4.png"
+		},
+		{
+			"minigame": "duobedwars",
+			"code": 23,
+			"icon": "https://i.imgur.com/53fIEW4.png"
+		},
+		{
+			"minigame": "blockparty",
+			"code": 25,
+			"icon": "https://i.imgur.com/2MD3vzY.png"
+		}
+	]
 }

@@ -8,31 +8,21 @@ skycraft.start({ show: false }).then(async (response) => {
     let result = await skycraft.searchPage({ response: response, minigame: 'blockparty', page: 1, temporada: 'mensal' })
     console.log(result)
 
-    /* Retorno similar a: 
-    
-    [
-        [ '1', 'Hiraihiin', '6,445', '0', '6,445.00', '0', '6445' ],
-        [ '2', 'gwbie', '5,982', '0', '5,982.00', '0', '5982' ],
-        [ '3', 'princeinhadoyan', '5,012', '0', '5,012.00', '0', '5012' ],
-        [ '4', 'donutLukke', '4,464', '0', '4,464.00', '0', '4464' ],
-        [ '5', 'NoVictor', '3,203', '0', '3,203.00', '0', '3203' ],
-        [ '6', 'trolewy', '3,085', '0', '3,085.00', '0', '3085' ],
-        [ '7', 'Superada', '2,853', '0', '2,853.00', '0', '2853' ],
-        [ '8', 'taina13', '2,698', '0', '2,698.00', '0', '2698' ],
-        [ '9', 'CocaaHx', '2,440', '0', '2,440.00', '0', '2440' ],
-        [ '10', 'Bruxu', '2,389', '0', '2,389.00', '0', '2389' ],
-        [ '11', 'Koguto', '2,291', '0', '2,291.00', '0', '2291' ],
-        [ '12', 'beaziinha', '2,146', '0', '2,146.00', '0', '2146' ],
-        [ '13', '01min', '2,120', '0', '2,120.00', '0', '2120' ],
-        [ '14', 'poudim', '1,898', '0', '1,898.00', '0', '1898' ],
-        [ '15', 'mituhx', '1,847', '0', '1,847.00', '0', '1847' ],
-        [ '16', 'yyild1', '1,808', '0', '1,808.00', '0', '1808' ],
-        [ '17', 'InLuiz_', '1,781', '0', '1,781.00', '0', '1781' ],
-        [ '18', '16kyumi', '1,766', '0', '1,766.00', '0', '1766' ],
-        [ '19', 'hxpppy', '1,735', '0', '1,735.00', '0', '1735' ],
-        [ '20', 'Shoftz', '1,733', '0', '1,733.00', '0', '1733' ]
-    ]
-    
-    */
+    try {
+
+        await auth({ response: response, user: 'gbrsrs', pass: 'senha' })
+
+        //await changeProfile({ response: response, change: 'area', value: 'todos' })
+        getProfile({ response: response, user: 'gbrsrs' }).then((profile) => {
+
+            console.log(profile)
+
+        }).catch(console.log)
+
+    } catch (e) {
+
+        console.log(e)
+
+    }
 
 })
