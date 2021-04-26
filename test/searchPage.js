@@ -1,28 +1,43 @@
-const skycraft = require('skycraft')
+const Skycraft = require('skycraft')
 
-//True = Mostra o processo do browser
-//False = Esconde o processo do browser
+let sc = new Skycraft.Client({ show: false })
 
-skycraft.start({ show: false }).then(async (response) => {
-
-    let result = await skycraft.searchPage({ response: response, minigame: 'blockparty', page: 1, temporada: 'mensal' })
-    console.log(result)
-
-    try {
-
-        await auth({ response: response, user: 'gbrsrs', pass: 'senha' })
-
-        //await changeProfile({ response: response, change: 'area', value: 'todos' })
-        getProfile({ response: response, user: 'gbrsrs' }).then((profile) => {
-
-            console.log(profile)
-
-        }).catch(console.log)
-
-    } catch (e) {
-
-        console.log(e)
-
-    }
-
+let page = await sc.searchPage({
+    minigame: 'bedwars',
+    page: 1,
+    temporada: 'mensal'
 })
+
+/* 
+
+    O parametro minigame, recebe o minigame que você deseja buscar.
+    O parametro page, recebe a numeração da página que você deseja buscar.
+    O parametro temporada, recebe geral/mensal.
+    O parametro maxTimeout, é opcional, recebe o valor de tempo de resposta em MS.
+
+*/
+
+/**
+ * Minigames disponiveis:
+ * 
+ * tntrun
+ * skywars
+ * oneinthechamber
+ * buildmasters
+ * teamskywars
+ * capturetheflag
+ * escondeesconde
+ * duoskywars
+ * duobuildmasters
+ * teamdeathmatch
+ * paintball
+ * eggwars
+ * murder
+ * defenders
+ * duoeggwars
+ * soloeggwars
+ * bedwars
+ * solobedwars
+ * duobedwars
+ * blockparty
+ */

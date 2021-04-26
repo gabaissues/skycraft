@@ -1,8 +1,8 @@
-### Skycraft Package
+# Skycraft Package
 
 ⚠️ Está package não é oficial, é apenas algo feito experimentalmente por mim. Se a SkyCraft quiser uma package com o mesmo nome para o Node, eu terei que remover esta.
 
-### Instalação
+# Instalação
 
 ```shell
 
@@ -14,38 +14,34 @@ yarn add skycraft
 
 ```
 
-### Como utilizar
+# Como utilizar
 
-Para você utilizar é super simples, no meu repositorio do github tem um código que você pode copiar e colar e testar que vai funcionar perfeitamente. Só tem alguns minigames disponiveis para a busca, mas são quase todos. Alguns tem seu ranking diferente dos demais, então não é compativel com a busca.
+Para você utilizar é super simples, no meu repositorio do github tem um código que você pode copiar e colar e testar que vai funcionar perfeitamente.
 
-# Start 
+### Start 
 
 ```js
 
-const skycraft = require('skycraft')
+const Skycraft = require('skycraft')
 
-skycraft.start({ show: false }).then(async (response) => {
-
-    //Código
-
-})
+let sc = new Skycraft.Client({ show: aflse })
 
 ```
 
-A função start recebe somente o parametro start, que tem o intuito de mostrar o que passa por trás da função. Ela abre um navegador em sua máquina para obter os dados diretamente do site do skycraft. Se você mudar o parametro show para true, você pode visualizar exatamente o que o browser está executando por trás.
+A função start recebe somente o parametro show, que tem o intuito de mostrar o que passa por trás da função. Ela abre um navegador em sua máquina para obter os dados diretamente do site do skycraft. Se você mudar o parametro show para true, você pode visualizar exatamente o que o browser está executando por trás.
 
-Lembrando que, a função start é assincrona. Ou seja, precisa de await/then para ser executada. Se não, vai retornar uma promise.
-
-# SearchPage 
+### SearchPage 
 
 ```js
 
-const skycraft = require('skycraft')
+const Skycraft = require('skycraft')
 
-skycraft.start({ show: false }).then(async (response) => {
+let sc = new Skycraft.Client({ show: false })
 
-    let result = await skycraft.searchPage({ response: response, minigame: 'blockparty', page: 1, temporada: 'mensal' })
-
+let page = await sc.searchPage({
+    minigame: 'bedwars',
+    page: 1,
+    temporada: 'mensal'
 })
 
 ```
@@ -57,37 +53,30 @@ A função searchPage recebe os parametros, response, minigame, page, e temporad
 - page (Página no qual você quer buscar os dados)
 - temporada (Temporada no qual você quer buscar, seja mensal ou geral)
 
-### Minigames disponiveis
+# Minigames disponiveis
 
-- duoskywars
+ - tntrun
+ - skywars
+ - oneinthechamber
+ - buildmasters
+ - teamskywars
+ - capturetheflag
+ - escondeesconde
+ - duoskywars
+ - duobuildmasters
+ - teamdeathmatch
+ - paintball
+ - eggwars
+ - murder
+ - defenders
+ - duoeggwars
+ - soloeggwars
+ - bedwars
+ - solobedwars
+ - duobedwars
+ - blockparty
 
-- blockparty
-
-- duobuildmasters
-
-- buildmasters
-
-- escondeesconde
-
-- skywars
-
-- tntrun
-
-- defenders
-
-- paintball
-
-- murder
-
-- capturetheflag
-
-- teamdeatchmatch
-
-- oneinthechamber
-
-- teamskywars
-
-### Finalização
+# Finalização
 
 Bom, a package ainda está no seu inicio. Qualquer erro me reportem, se ocorrer algum erro, sugestão, ou dúvida, fiquem a vontade de me reportar através do meu discord ou email.
 

@@ -1,17 +1,13 @@
-const { searchPage, start, auth, getProfile, changeProfile } = require('./lib/api.js')
+const { Client } = require('./lib/api.js')
 
 /**
  
  * @author Gabriel <ogabrielskJ@gmail.com>
- * @version 0.0.1
+ * @version 3.0.0
  * @url https://github.com/gbrsrs/skycraft
 
 */
 
 module.exports = {
-    start: start,
-    searchPage: searchPage,
-    auth: auth,
-    getProfile: getProfile,
-    changeProfile: changeProfile
+    Client
 }
